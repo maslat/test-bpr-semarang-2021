@@ -1,3 +1,4 @@
+//Function to determine how many pairs of socks with matching colors
 function pairedSocks( n, arr ) {
     let sortedArr = arr.sort( (a,b) => a - b);
     let pairs = 0;
@@ -12,6 +13,7 @@ function pairedSocks( n, arr ) {
     return pairs;
 }
 
+// Test Input
 let a = 9
 let socks = [10, 20, 20, 10, 10, 30, 50, 10, 20]
 
